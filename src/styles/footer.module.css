@@ -1,0 +1,13 @@
+.container {
+  align-items: center;
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(to right, #195eed, #3dc862);
+  border-image-slice: 1;
+  padding: 1rem 2rem;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  align-items: center;
+}

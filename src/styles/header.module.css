@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, #195eed, #3dc862);
+  border-image-slice: 1;
+  padding: 1rem 2rem;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.list a {
+  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  cursor: pointer;
+  font-weight: 700;
+}
